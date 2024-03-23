@@ -47,14 +47,14 @@ const JobDetails = () => {
             <h2 className="text-xl font-bold">Job Details</h2>
             <hr className="my-6 border-1" />
             <div className="flex gap-2 items-center mb-4">
-              <img src="../../../src/assets/icons/money.png" alt="" />
+              <img src="/icons/money.png" alt="" />
               <p className="text-[#474747] text-xl">
                 <span className="font-bold">Salary: </span>
                 {job.salary} (Per Month)
               </p>
             </div>
             <div className="flex gap-2 items-center mb-8">
-              <img src="../../../src/assets/icons/calendar.png" alt="" />
+              <img src="/icons/calendar.png" alt="" />
               <p className="text-[#474747] text-xl">
                 <span className="font-bold">Job Title: </span> {job.job_title}
               </p>
@@ -62,21 +62,21 @@ const JobDetails = () => {
             <h2 className="text-xl font-bold">Contact Information</h2>
             <hr className="my-6 border-1" />
             <div className="flex gap-2 items-center mb-4">
-              <img src="../../../src/assets/icons/phone.png" alt="" />
+              <img src="/icons/phone.png" alt="" />
               <p className="text-[#474747] text-xl">
                 <span className="font-bold">Phone: </span>
                 {job.contact_information.phone}
               </p>
             </div>
             <div className="flex gap-2 items-center mb-4">
-              <img src="../../../src/assets/icons/email.png" alt="" />
+              <img src="/icons/email.png" alt="" />
               <p className="text-[#474747] text-xl">
                 <span className="font-bold">Email: </span>
                 {job.contact_information.email}
               </p>
             </div>
             <div className="flex gap-2 items-start">
-              <img src="../../../src/assets/icons/location2.png" alt="" />
+              <img src="/icons/location2.png" alt="" />
               <p className="text-[#474747] text-xl">
                 <span className="font-bold">Address: </span>{" "}
                 {job.contact_information.address}

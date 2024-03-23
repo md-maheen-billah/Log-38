@@ -20,11 +20,11 @@ const Job = ({ job }) => {
         </div>
         <div className="flex gap-4 items-center mt-4">
           <div className="flex gap-1 items-center">
-            <img src="../../../src/assets/icons/Location.png" alt="" />
+            <img src="/icons/Location.png" alt="" />
             <p className="text-[#757575]">{job.location}</p>
           </div>
           <div className="flex gap-1 items-center">
-            <img src="../../../src/assets/icons/money2.svg" alt="" />
+            <img src="/icons/money2.svg" alt="" />
             <p className="text-[#757575]">Salary: {job.salary}</p>
           </div>
         </div>
